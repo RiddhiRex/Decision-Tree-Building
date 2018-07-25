@@ -1,8 +1,9 @@
 # Decision-Tree-Building
 Decision tree building
 
-In this project, I have added a max_depth parameter to the decision tree because when the p-value threshold is set to 1, building the entire tree involves including the attributes that are irrelevant which may result in over-fitting, thereby reducing accuracy to almost 65%.
+In this project, We study the correlation between the size/depth of the tree and the accuracy of prediction for various threshold values.
 
+A new factor max_depth parameter is added in this project to the decision tree because when the p-value threshold is 1, building the entire tree involves including the attributes that are irrelevant which may result in over-fitting, thereby reducing accuracy to almost 65%.
 
 P_value threshold = 0.05
 Max_depth	No. of internal nodes	No. of leaves	Accuracy(%)
